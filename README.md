@@ -2,12 +2,7 @@
 
 **Tecnologias usadas para desenvolver a Api:**
 
->Spring Data Jpa
->Spring Boot
->DevTools
->Maven
->Migrações FlyWay (Banco de Dados)
->MySql
+>Spring Data Jpa, Spring Boot, DevTools, Maven, Migrações FlyWay (Banco de Dados), MySql
 
 **Instruções para Uso**
 
@@ -28,7 +23,7 @@
 
 >As tabelas do Banco de dados serão criadas automáticamente pelo FlyWay a partir das migrações contidas em src/main/resources/db, porém se faz necessário a criaçao manual do banco no mysql com o nome caixaeletronico, ou se você preferir mudar o nome, poderá alterá-lo no arquivo de configuração application.properties que fica dentro src/main/resources.
 
-**Obs.:** Para a criação de uma conta você deverá informar o Json abaixo:
+**Obs.:** Para a criação de uma conta você poderá utilizar o Json abaixo como modelo:
 
 ```json
 {
